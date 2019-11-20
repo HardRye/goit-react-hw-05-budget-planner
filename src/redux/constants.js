@@ -1,0 +1,8 @@
+export const INPUT_BUDGET = 'INPUT_BUDGET';
+export const INPUT_EXP_NAME = 'INPUT_EXP_NAME';
+export const INPUT_EXP_AMOUNT = 'INPUT_EXP_AMOUNT';
+export const CLEAR_INPUT = 'CLEAR_INPUT';
+
+export const SET_BUDGET = 'SET_BUDGET';
+export const ADD_EXPENCES = 'ADD_EXPENCES';
+export const DELETE_EXPENCES = 'DELETE_EXPENCES';
