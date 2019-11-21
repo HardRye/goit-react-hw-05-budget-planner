@@ -8,7 +8,7 @@ const Form = ({ onSubmit = () => null, children }) => (
 
 Form.propTypes = {
   onSubmit: PropTypes.func.isRequired,
-  children: PropTypes.arrayOf.isRequired,
+  children: PropTypes.node.isRequired,
 };
 
 export default Form;

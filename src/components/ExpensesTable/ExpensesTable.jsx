@@ -36,11 +36,13 @@ const ExpensesTable = ({ items, onRemove }) => (
 );
 
 ExpensesTable.propTypes = {
-  items: PropTypes.arrayOf({
-    id: PropTypes.string.isRequired,
-    name: PropTypes.string.isRequired,
-    amount: PropTypes.number.isRequired,
-  }).isRequired,
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string,
+      name: PropTypes.string,
+      amount: PropTypes.number,
+    }),
+  ).isRequired,
   onRemove: PropTypes.func.isRequired,
 };
 

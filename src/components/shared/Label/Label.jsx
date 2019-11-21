@@ -7,8 +7,8 @@ const Label = ({ children, customStyles }) => (
 );
 
 Label.propTypes = {
-  children: PropTypes.arrayOf.isRequired,
-  customStyles: PropTypes.shape.isRequired,
+  children: PropTypes.node.isRequired,
+  customStyles: PropTypes.string.isRequired,
 };
 
 export default Label;
